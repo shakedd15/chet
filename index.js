@@ -28,7 +28,6 @@ webServer.on('request', function (request) {
 
     connection.on('message', function (message) {
         var messageString = message.utf8Data;
-
         userIndex.forEach(function (user) {
             user.sendUTF(messageString);
         });
