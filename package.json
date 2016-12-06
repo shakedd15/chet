@@ -9,6 +9,7 @@
   "author": "shaked",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.2",
+    "node-static": "^0.7.9"
   }
 }

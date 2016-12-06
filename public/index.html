@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./chatHome.css">
+    <title>Title</title>
+</head>
+<body>
+<section class="container">
+    <div class="row">
+        <div class="col-md-12 chatArea">
+            <div id="massage">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <input type="text" class="form-control" id="username" placeholder="Username" required="">
+        </div>
+        <div class="col-md-9">
+            <input type="text" class="form-control" id="text" placeholder="insert your text" required="">
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-primary" onclick="sendMassege()">send</button>
+        </div>
+    </div>
+</section>
+
+<script src="./chat.js"></script>
+</body>
+</html>
